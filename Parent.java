@@ -10,8 +10,6 @@ public class Parent{
         System.out.println("in fun-parent");
       }
           
-
-    
 }
 
 
