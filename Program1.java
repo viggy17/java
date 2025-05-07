@@ -6,13 +6,17 @@ public class Program1{
 
       }
 
-      public static void fun(){
+      public  void fun(){
         System.out.println("in fun-parent");
       }
           
+
+    
 }
 
-public class Program1 extends Program2{
+
+
+ class Program2 extends Program1{
 
    Program2(String str){
 
