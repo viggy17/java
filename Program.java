@@ -1,20 +1,18 @@
 public class Program{
 
-    public void run(){
-
-        System.out.println("in run - program");
-    }
-
-    public void fun(){
-
-        System.out.println("in fun- program");
-    }
+     public void Print(){
+        System.out.println("hello world");
+     }
+    
 
     public static void main(String[] args){
-
+          
         Program obj = new Program();
-        obj.fun();
-        obj.run();
+        for(int i=0;i<5;i++){
+
+            obj.Print();
+
+        }
     }
 }
 
